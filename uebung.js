@@ -3,5 +3,10 @@ let wochentage = ['Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Sammsta
 
 
 function ausgabe() {
-    
+    for (let i = 0; i < wochentage.length; i++) {
+        console.log(wochentage[i]);
+    }
 }
+
+
+
